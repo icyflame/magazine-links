@@ -1,1 +1,8 @@
 #+TITLE: Magazine (Links)
+
+#+begin_src sh
+  mkdir -p wired && \
+	  cp source-file.html wired/index.html && \
+	  git add wired/index.html && \
+	  git commit -am "[auto] Add Wired magazine links"
+#+end_src
